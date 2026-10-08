@@ -1,0 +1,34 @@
+😂 You're right. I switched from the **box-drawing version** to the simpler ASCII-ish version.
+
+The one you meant was this style:
+
+```text id="ykbkrz"
+User input
+    ↓
+Interpret / reason about the request
+    ↓
+Determine what would satisfy it
+    ↓
+┌──────────────────────────────┐
+│ Does satisfying it require   │
+│ an external action/tool?     │
+└──────────────┬───────────────┘
+               │
+        No     │     Yes
+         ↓     │      ↓
+   Generate    │   Choose a tool
+   response    │      ↓
+               │   Execute tool
+               │      ↓
+               │   Observe result
+               │      ↓
+               │   Reason about result
+               │      ↓
+               └──→ Repeat if necessary
+                         ↓
+                  Generate response
+```
+
+**That is Unicode box-drawing + arrows**, rather than strict old-school ASCII.
+
+I can keep using that style.
